@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <title>FILD_ME</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <meta name="description" content="" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="favicon.png" />
+        <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+        <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+        <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+        <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+        <link rel="stylesheet" href="css/fonts.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="header_wrap">
+
+                <div class="logo_img">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="top_bar">
+                    <button class="fa fa-bars hidden-lg" aria-hidden="true"></button>
+                </div>
+            </div>
+            <div class="wrapper_navigation">
+
+                <button class="fa fa-times x" aria-hidden="true" ></button>
+
+                <menu class="navigation">
+                    <li> <a href='about.html'>About</a></li>
+                    <li ><a href="index.html" > Projects</a></li>
+                    <li ><a href="publications.html">Publications</a></li>
+                    <li ><a href="contacts.html">Contacts</a></li>
+                </menu>
+
+                <div class="footer_wrap">
+                    <menu class="footer_wrap_nav">
+                        <li  class="active" ><a href="online_store.html">ON-LINE STORE</a></li>
+                        <li ><a href="3d_models.html">3D / 2D FILES</a></li>
+                        <li><a href="info.html">info</a></li>
+                    </menu>
+                    <div class="soc_icon">
+                        <menu>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                        </menu>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="abc">
+            <div class="order_form">
+                <div class="order_wrap">
+                    <a class="close_order" href=""></a>
+                    <h1>ADDITIONAL INFO</h1>
+                    <p>PRODUCT</p>
+                    <div class="border_block"></div>
+
+                    <form action="action" method="post" id="order_form_action">
+
+
+                        <p><label for="color">color *</label></p>
+                        <select name="color" id="color" required="">
+                            <option value="Mint" >Mint</option>
+                            <option value="Coral" >Coral</option>
+                            <option value="Yellow" >Yellow</option>
+                            <option value="Nevy" >Nevy</option>
+                            <option value="Grey" >Grey</option>
+                            <option value="Black" >Black</option>
+                            <option value="White" >White</option>
+                        </select>
+                        <p><label for="quantity">quantity *</label></p>
+                        <select name="quantity" id="quantity" required="">
+                            <option value="1" >1</option>
+                            <option value="2" >2</option>
+                            <option value="3" >3</option>
+                            <option value="4" >4</option>
+                            <option value="5" >5</option>
+                            <option value="6" >6</option>
+                            <option value="7" >7</option>
+                            <option value="8" >8</option>
+                            <option value="9" >9</option>
+                            <option value="10" >10</option>
+                        </select>
+                        <p>NFORMATION</p>
+                        <div class="border_block"></div>
+                        <p><label for="first_name">Name *</label></p>
+                        <div class="first_name">
+                            <input type="text" name="first_name" required="" size="36" id="first_name">
+                            <small><label for="firs_name" class="f_name">First Name</label></small>
+                        </div>
+                        <div class="last_name">
+                            <input type="text" name="last_name" required="" size="36" id="last_name">
+                            <small> <label for="last_name" class="l_name">Last Name</label> </small>
+                        </div>
+                        <p> <label for="email">e-mail *</label> </p>
+                        <input type="text" name="email" id="email" size="80" required="">
+                        <p> <label for="phone">phone number </label> </p>
+                        <input type="text" name="phone" id="phone" size="80">
+                        <p> <label for="info">more info </label> </p>
+                        <textarea name="info" id="info" cols="81" rows="4"></textarea>
+                        <p>IF YOU NEED DELIVERY PLEASE FILL THE FORM</p>
+                        <div class="border_block"></div>
+                        <p> <label for="country">country </label> </p>
+                        <input type="text" name="country" id="country" size="80">
+                        <p> <label for="city"> city </label> </p>
+                        <input type="text" name="city" id="city" size="80">
+                        <p> <label for="zip">zip code </label> </p>
+                        <input type="text" name="zip" id="zip" size="80">
+                        <p> <label for="stret">STREET AND BUILDING NUMBER </label> </p>
+                        <input type="text" name="street" id="street" size="80">
+                        <p> <label for="apartament"> apartament </label> </p>
+                        <input type="text" name="apartament" id="apartament" size="80">
+                        <input type="submit" name="order" id="order_send" value="order" class="order order_send" >
+
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="os_product_page puclications">
+                <div class="os_product_info public_info">
+                    <p class="back"><a href="online_store.html"><i class="fa fa-angle-left" aria-hidden="true"></i> on-line store</a></p>
+                    <h1>HEAVY CREAM / €15</h1>
+                    <p>HEAVY CREAMS - candlestick consists of 2 turned metal parts and a wooden handle.  Considering its sophisticated, light look and small size, the candlestick actually has pretty impressive weight. That is where the name “Heavy Creams” takes it inspiration. </p>
+                    <p>Materials: Metall / Wood</p>
+                    <p>Size: 50x80x80 mm</p>
+                    <p><a href="">Download specification</a></p>
+                    <p><a href="">Download 3D models</a></p>
+                    <p><a href="">Refund & Privacy</a></p>
+                    <a href="#order_form" class="order " data-fancybox-group="group"> make you order</a>
+
+                </div>
+                <div class="public_image os_product_image">
+                    <img src="img/online_store/os_product_page/os-till1.jpg" alt>
+                    <img src="img/online_store/os_product_page/os-till2.jpg" alt="">
+                    <img src="img/online_store/os_product_page/os-till3.jpg" alt="">
+                    <img src="img/online_store/os_product_page/os-till4.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="hidden">
+
+        </div>
+        <!--[if lt IE 9]>
+      <script src="libs/html5shiv/es5-shim.min.js"></script>
+      <script src="libs/html5shiv/html5shiv.min.js"></script>
+      <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+      <script src="libs/respond/respond.min.js"></script>
+      <![endif]-->
+        <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+        <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+        <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+        <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+        <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+        <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+        <script src="libs/countdown/jquery.plugin.js"></script>
+        <script src="libs/countdown/jquery.countdown.min.js"></script>
+        <script src="libs/countdown/jquery.countdown-ru.js"></script>
+        <script src="libs/landing-nav/navigation.js"></script>
+        <script src="js/common.js"></script>
+        <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+        <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+    </body>
+</html>

@@ -65,6 +65,7 @@ a{
     -ms-transition: color .2s 0s ease-in-out;
     -o-transition: color .2s 0s ease-in-out;
     transition: color .2s 0s ease-in-out;
+    font-size: 16px;
 
 }
 .wrapper li{
